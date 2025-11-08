@@ -1,7 +1,22 @@
-@import 'utils';
-@import 'fonts';
-@import 'typography';
-
-body {
-  background: $c-gray;
-}
+@import './utils/vars';
+@import './utils/mixins';
+@import './blocks/normalise';
+@import './blocks/page';
+@import './blocks/button';
+@import './blocks/main-sections/content-text';
+@import './blocks/header&menu/top-bar';
+@import './blocks/header&menu/header';
+@import './blocks/header&menu/menu';
+@import './blocks/header&menu/nav';
+@import './blocks/icon';
+@import './blocks/header&menu/language-switcher';
+@import './blocks/main-sections/main-block';
+@import './blocks/title';
+@import './blocks/main-sections/content-card';
+@import './blocks/main-sections/plan-a-visit';
+@import './blocks/main-sections/section-grid';
+@import './blocks/main-sections/exhibitions';
+@import './blocks/main-sections/events';
+@import './blocks/main-sections/news';
+@import './blocks/main-sections/subscribe';
+@import './blocks/footer';
