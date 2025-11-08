@@ -25,10 +25,6 @@
     flex-direction: column;
 
     @include content-padding-inline;
-
-    @include on-desktop {
-      height: 800px;
-    }
   }
 
   &__main-info {
