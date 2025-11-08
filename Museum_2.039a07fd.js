@@ -1,0 +1,2 @@
+"use strict";var dropdowns=document.querySelectorAll(".language-switcher");dropdowns.forEach(function(e){var t=e.querySelector(".language-switcher__trigger");t&&t.addEventListener("click",function(){e.classList.toggle("language-switcher--active")})}),document.addEventListener("click",function(e){dropdowns.forEach(function(t){t.contains(e.target)||t.classList.remove("language-switcher--active")})});
+//# sourceMappingURL=Museum_2.039a07fd.js.map
