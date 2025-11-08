@@ -18,15 +18,13 @@
 
   &__content {
     box-sizing: border-box;
-    min-height: 474px;
+    height: 100vh;
+    min-height: 747px;
     display: flex;
     flex-direction: column;
 
     @include content-padding-inline;
 
-    @include on-tablet {
-      height: 100vh;
-    }
   }
 
   &__bottom {
