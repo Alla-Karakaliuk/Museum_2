@@ -18,14 +18,14 @@
 
   &__content {
     box-sizing: border-box;
-    height: 100vh;
+    min-height: 474px;
     display: flex;
     flex-direction: column;
 
     @include content-padding-inline;
 
-    @include on-desktop {
-      height: 800px;
+    @include on-tablet {
+      height: 100vh;
     }
   }
 
